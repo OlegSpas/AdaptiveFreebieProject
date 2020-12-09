@@ -956,8 +956,7 @@ span {
 
 @media screen and (max-width: 575px) {
     .container {
-		width: 100%;
-		padding: 0 15px;
+		width: 540px;
     }
     
     #header h1 {
@@ -1020,34 +1019,28 @@ span {
     }
     
     .top_latest {
-        margin-top: 75%;
+        margin-top: 85%;
         position: relative;
     }
     
     .main_latest {
-        margin-top: 105%;
+        margin-top: 115%;
         position: relative;
     }
     
     .groovemade_latest {
-        margin-top: 205%;
+        margin-top: 215%;
         position: relative;
     }
     
     .apple_latest {
-        margin-top: 315%;
+        margin-top: 325%;
         position: relative;
     }
 
     .navigation {
         flex-wrap: wrap;
         margin-left: -15%;
-    }
-
-    .content-container {
-        width: 60%;
-        height: 60%;
-        transform: scale(.7, .7);
     }
 
     .container_zah_right {
@@ -1108,3 +1101,201 @@ span {
 }
 
 
+@media screen and (max-width: 440px) {
+    .container {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    .navigation ul  {
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .about-img img {
+        transform: scale(.6,.6);
+    }
+
+    #header h1 {
+        font-size: 52px;
+        line-height: 60px;
+    }
+
+    .greenbc {
+        left: 25%;
+        margin-top: 60%;
+        height: 210px;
+        width: 140px;
+    }
+
+    .bit-one {
+        margin-top: 30%;
+        top: 30%;
+        left: -5%;
+    }
+
+    .bit-two {
+        margin-top: 55%;
+        left: 45%;
+    }
+
+    .bottom_text_about {
+        margin-top: 120%;
+    }
+
+    #services {
+        height: 100vh;
+    }
+
+    .content-services {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .advice p {
+        padding-bottom: 10%;
+    }
+    
+    .advice {
+        height:220px;
+        width: 50%;
+        margin-top: 5%;
+    }
+
+    .navigation li {
+        margin-top: 15px;
+    }
+
+    .left {
+        left: -10%;
+    }
+
+    .right {
+        position: absolute;
+        right:110%;
+    }
+    .img-latest {
+        transform: scale(0.7, 0.7);
+    }
+
+    .container_zah_right {
+        width: 60%;
+    }
+
+    .about-latest h3 {
+        line-height: 48px;
+        font-size: 40px;
+    }
+
+    .container_zah_left {
+        top: 65%;
+    }
+
+    .container_zah_right {
+        top: 65%;
+        right: 20%;
+    }
+
+    .opus {
+        top: 95%;
+    }
+
+    .top_latest {
+        margin-top: 115%;
+        position: relative;
+    }
+    
+    .main_latest {
+        margin-top: 145%;
+        position: relative;
+    }
+    
+    .groovemade_latest {
+        margin-top: 275%;
+        position: relative;
+    }
+    
+    .apple_latest {
+        margin-top: 405%;
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 395px) {
+
+    .container {
+        width: 350px;
+    }
+
+    #header h1 {
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    .text_about {
+        left: -10%;
+        width: 80%;
+    }
+    .greenbc {
+        left: 15%;
+        margin-top: 70%;
+        height: 210px;
+        width: 140px;
+    }
+
+    .bit-one {
+        margin-top: 40%;
+        left: -15%;
+    }
+
+    .bit-two {
+        margin-top: 75%;
+        left: 35%;
+    }
+
+    .container_zah_right {
+        right: 15%;
+    }
+
+    .container_zah_left {
+        left: 25%;
+    }
+
+    .opus {
+        top: 96%;
+        left: 25%;
+    }
+    .bottom_text_about {
+        margin-top: 150%;
+    }
+
+    #services {
+        height: 950px;
+    }
+
+    .advice {
+        width: 60%;
+        height:240px;
+    }
+
+    .left {
+        left: -20%;
+    }
+
+    .right {
+        position: absolute;
+        right:120%;
+    }
+    .about-latest {
+        width: 400px;
+    }
+    .content-container {
+        width: 150px;
+        height: 200px;
+    }
+
+
+}
